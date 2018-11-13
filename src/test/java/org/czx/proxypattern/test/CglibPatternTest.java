@@ -1,4 +1,4 @@
-package org.czx.singelonpattern.test;
+package org.czx.proxypattern.test;
 
 import net.sf.cglib.proxy.Enhancer;
 import org.czx.proxypattern.iscglib.InfoMethodInterceptor;
