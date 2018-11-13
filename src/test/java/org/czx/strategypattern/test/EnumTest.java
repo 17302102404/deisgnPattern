@@ -7,6 +7,6 @@ import org.czx.strategypattern.PayType;
  */
 public class EnumTest {
     public static void main(String[] args) {
-        System.out.println(PayType.AliPay);
+        System.out.println(PayType.AliPay.get());
     }
 }

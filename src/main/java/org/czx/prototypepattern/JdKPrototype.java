@@ -10,7 +10,7 @@ public class JdKPrototype {
 
     public static void main(String[] args) {
         Person p = new Person();
-        p.setName("csh");
+        p.setName("czx");
         p.setAge("50");
         try {
             Person p1 = (Person)p.clone();
@@ -21,7 +21,7 @@ public class JdKPrototype {
         }
         Son son = new Son();
         son.setAge("18");
-        son.setName("qje");
+        son.setName("zc");
         List<Son> sons = new ArrayList<Son>();
         sons.add(son);
         p.setListson(sons);

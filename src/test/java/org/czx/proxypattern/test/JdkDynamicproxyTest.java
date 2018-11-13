@@ -16,7 +16,7 @@ import java.util.Arrays;
 public class JdkDynamicproxyTest {
 
     public static void main(String[] args) {
-        //先抓住一点，一定得生成一个代理类，如何生成？ 使用JDk下的Proxy这个类的nnewProxyInstance方法
+        //先抓住一点，一定得生成一个代理类，如何生成？ 使用JDk下的Proxy这个类的newProxyInstance方法
         MyFitler p1 = (MyFitler)Proxy.newProxyInstance(JdkDynamicproxyTest.class.getClassLoader(),
                 new Class[]{MyFitler.class},
                 new MyHander(new Pupil()));
